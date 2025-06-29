@@ -1,0 +1,36 @@
+    body {
+      background-color: skyblue;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: black;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    p {
+      color: red;
+      font-family: Verdana, sans-serif;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .centrar {
+      text-align: center;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #miBoton:hover{
+      cursor: pointer;
+      border-color: coral;
+      transform: scale(1.3);
+      transition: transform .3s;
+    }
+
+    .color {
+      text-decoration-color: brown;
+    }
